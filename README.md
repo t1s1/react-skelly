@@ -1,1 +1,3 @@
-** I don't know what this will be yet**
+npm install to get all the node dependencies
+
+npm start to go

@@ -1,0 +1,26 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "** I don't know what this will be yet**",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o app/js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t1s1/react-skelly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t1s1/react-skelly/issues"
+  },
+  "homepage": "https://github.com/t1s1/react-skelly#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "watchify": "^3.7.0"
+  }
+}
